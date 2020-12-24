@@ -21,11 +21,7 @@
       </Folder>
       <Folder Name="wwwroot" TargetFolderName="wwwroot">
         <Folder Name="css" TargetFolderName="css">
-          <Folder Name="bootstrap" TargetFolderName="bootstrap">
-            <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
-            <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
-          </Folder>
-          <Folder Name="Fomantic-UI" TargetFolderName="Fomantic-UI">
+	        <Folder Name="Fomantic-UI" TargetFolderName="Fomantic-UI">
             <Folder Name="components" TargetFolderName="components">
               <ProjectItem ReplaceParameters="true" TargetFileName="accordion.css">accordion.css</ProjectItem>
               <ProjectItem ReplaceParameters="true" TargetFileName="accordion.min.css">accordion.min.css</ProjectItem>
@@ -244,24 +240,7 @@
             <ProjectItem ReplaceParameters="true" TargetFileName="semantic.js">semantic.js</ProjectItem>
             <ProjectItem ReplaceParameters="true" TargetFileName="semantic.min.js">semantic.min.js</ProjectItem>
           </Folder>
-          <Folder Name="open-iconic" TargetFolderName="open-iconic">
-            <Folder Name="font" TargetFolderName="font">
-              <Folder Name="css" TargetFolderName="css">
-                <ProjectItem ReplaceParameters="true" TargetFileName="open-iconic-bootstrap.min.css">open-iconic-bootstrap.min.css</ProjectItem>
-              </Folder>
-              <Folder Name="fonts" TargetFolderName="fonts">
-                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.eot">open-iconic.eot</ProjectItem>
-                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.otf">open-iconic.otf</ProjectItem>
-                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.svg">open-iconic.svg</ProjectItem>
-                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.ttf">open-iconic.ttf</ProjectItem>
-                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.woff">open-iconic.woff</ProjectItem>
-              </Folder>
-            </Folder>
-            <ProjectItem ReplaceParameters="false" TargetFileName="FONT-LICENSE">FONT-LICENSE</ProjectItem>
-            <ProjectItem ReplaceParameters="false" TargetFileName="ICON-LICENSE">ICON-LICENSE</ProjectItem>
-            <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
-          </Folder>
-          <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
+	        <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
         </Folder>
         <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
       </Folder>
