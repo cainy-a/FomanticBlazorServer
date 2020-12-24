@@ -1,0 +1,284 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Fomantic UI Blazor App</Name>
+    <Description>A Blazor Server app with Fomantic UI</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Fomantic UI Blazor App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="FomanticBlazorServer.csproj" File="FomanticBlazorServer.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="wwwroot" TargetFolderName="wwwroot">
+        <Folder Name="css" TargetFolderName="css">
+          <Folder Name="bootstrap" TargetFolderName="bootstrap">
+            <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css.map">bootstrap.min.css.map</ProjectItem>
+          </Folder>
+          <Folder Name="Fomantic-UI" TargetFolderName="Fomantic-UI">
+            <Folder Name="components" TargetFolderName="components">
+              <ProjectItem ReplaceParameters="true" TargetFileName="accordion.css">accordion.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="accordion.min.css">accordion.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="accordion.js">accordion.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="accordion.min.js">accordion.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="ad.css">ad.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="ad.min.css">ad.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="api.js">api.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="api.min.js">api.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="breadcrumb.css">breadcrumb.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="breadcrumb.min.css">breadcrumb.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="button.css">button.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="button.min.css">button.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="calendar.css">calendar.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="calendar.min.css">calendar.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="calendar.js">calendar.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="calendar.min.js">calendar.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="card.css">card.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="card.min.css">card.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="checkbox.css">checkbox.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="checkbox.min.css">checkbox.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="checkbox.js">checkbox.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="checkbox.min.js">checkbox.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="comment.css">comment.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="comment.min.css">comment.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="container.css">container.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="container.min.css">container.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dimmer.css">dimmer.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dimmer.min.css">dimmer.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dimmer.js">dimmer.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dimmer.min.js">dimmer.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="divider.css">divider.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="divider.min.css">divider.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dropdown.css">dropdown.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dropdown.min.css">dropdown.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dropdown.js">dropdown.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="dropdown.min.js">dropdown.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="embed.css">embed.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="embed.min.css">embed.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="embed.js">embed.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="embed.min.js">embed.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="emoji.css">emoji.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="emoji.min.css">emoji.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="feed.css">feed.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="feed.min.css">feed.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="flag.css">flag.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="flag.min.css">flag.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="form.css">form.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="form.min.css">form.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="form.js">form.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="form.min.js">form.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="grid.css">grid.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="grid.min.css">grid.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="header.css">header.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="header.min.css">header.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="icon.css">icon.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="icon.min.css">icon.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="image.css">image.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="image.min.css">image.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="input.css">input.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="input.min.css">input.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="item.css">item.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="item.min.css">item.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="label.css">label.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="label.min.css">label.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="list.css">list.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="list.min.css">list.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="loader.css">loader.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="loader.min.css">loader.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="menu.css">menu.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="menu.min.css">menu.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="message.css">message.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="message.min.css">message.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="modal.css">modal.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="modal.min.css">modal.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="modal.js">modal.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="modal.min.js">modal.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="nag.css">nag.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="nag.min.css">nag.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="nag.js">nag.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="nag.min.js">nag.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="placeholder.css">placeholder.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="placeholder.min.css">placeholder.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="popup.css">popup.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="popup.min.css">popup.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="popup.js">popup.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="popup.min.js">popup.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="progress.css">progress.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="progress.min.css">progress.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="progress.js">progress.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="progress.min.js">progress.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rail.css">rail.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rail.min.css">rail.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="range.css">range.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="range.min.css">range.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="range.js">range.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="range.min.js">range.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rating.css">rating.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rating.min.css">rating.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rating.js">rating.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="rating.min.js">rating.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="reset.css">reset.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="reset.min.css">reset.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="reveal.css">reveal.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="reveal.min.css">reveal.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="search.css">search.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="search.min.css">search.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="search.js">search.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="search.min.js">search.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="segment.css">segment.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="segment.min.css">segment.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="shape.css">shape.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="shape.min.css">shape.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="shape.js">shape.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="shape.min.js">shape.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sidebar.css">sidebar.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sidebar.min.css">sidebar.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sidebar.js">sidebar.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sidebar.min.js">sidebar.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="site.min.css">site.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="site.js">site.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="site.min.js">site.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="slider.css">slider.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="slider.min.css">slider.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="slider.js">slider.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="slider.min.js">slider.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="state.js">state.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="state.min.js">state.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="statistic.css">statistic.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="statistic.min.css">statistic.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="step.css">step.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="step.min.css">step.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sticky.css">sticky.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sticky.min.css">sticky.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sticky.js">sticky.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="sticky.min.js">sticky.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tab.css">tab.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tab.min.css">tab.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tab.js">tab.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="tab.min.js">tab.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="table.css">table.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="table.min.css">table.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="text.css">text.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="text.min.css">text.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="toast.css">toast.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="toast.min.css">toast.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="toast.js">toast.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="toast.min.js">toast.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="transition.css">transition.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="transition.min.css">transition.min.css</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="transition.js">transition.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="transition.min.js">transition.min.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="visibility.js">visibility.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="visibility.min.js">visibility.min.js</ProjectItem>
+            </Folder>
+            <Folder Name="themes" TargetFolderName="themes">
+              <Folder Name="basic" TargetFolderName="basic">
+                <Folder Name="assets" TargetFolderName="assets">
+                  <Folder Name="fonts" TargetFolderName="fonts">
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.eot">icons.eot</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.svg">icons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.ttf">icons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.woff">icons.woff</ProjectItem>
+                  </Folder>
+                </Folder>
+              </Folder>
+              <Folder Name="default" TargetFolderName="default">
+                <Folder Name="assets" TargetFolderName="assets">
+                  <Folder Name="fonts" TargetFolderName="fonts">
+                    <ProjectItem ReplaceParameters="false" TargetFileName="brand-icons.eot">brand-icons.eot</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="brand-icons.svg">brand-icons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="brand-icons.ttf">brand-icons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="brand-icons.woff">brand-icons.woff</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="brand-icons.woff2">brand-icons.woff2</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.eot">icons.eot</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.svg">icons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.ttf">icons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.woff">icons.woff</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.woff2">icons.woff2</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="outline-icons.eot">outline-icons.eot</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="outline-icons.svg">outline-icons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="outline-icons.ttf">outline-icons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="outline-icons.woff">outline-icons.woff</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="outline-icons.woff2">outline-icons.woff2</ProjectItem>
+                  </Folder>
+                  <Folder Name="images" TargetFolderName="images">
+                    <ProjectItem ReplaceParameters="false" TargetFileName="flags.png">flags.png</ProjectItem>
+                  </Folder>
+                </Folder>
+              </Folder>
+              <Folder Name="github" TargetFolderName="github">
+                <Folder Name="assets" TargetFolderName="assets">
+                  <Folder Name="fonts" TargetFolderName="fonts">
+                    <ProjectItem ReplaceParameters="false" TargetFileName="octicons.svg">octicons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="octicons.ttf">octicons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="octicons.woff">octicons.woff</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="octicons-local.ttf">octicons-local.ttf</ProjectItem>
+                  </Folder>
+                </Folder>
+              </Folder>
+              <Folder Name="material" TargetFolderName="material">
+                <Folder Name="assets" TargetFolderName="assets">
+                  <Folder Name="fonts" TargetFolderName="fonts">
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.eot">icons.eot</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.svg">icons.svg</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.ttf">icons.ttf</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.woff">icons.woff</ProjectItem>
+                    <ProjectItem ReplaceParameters="false" TargetFileName="icons.woff2">icons.woff2</ProjectItem>
+                  </Folder>
+                </Folder>
+              </Folder>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semantic.css">semantic.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semantic.min.css">semantic.min.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semantic.js">semantic.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="semantic.min.js">semantic.min.js</ProjectItem>
+          </Folder>
+          <Folder Name="open-iconic" TargetFolderName="open-iconic">
+            <Folder Name="font" TargetFolderName="font">
+              <Folder Name="css" TargetFolderName="css">
+                <ProjectItem ReplaceParameters="true" TargetFileName="open-iconic-bootstrap.min.css">open-iconic-bootstrap.min.css</ProjectItem>
+              </Folder>
+              <Folder Name="fonts" TargetFolderName="fonts">
+                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.eot">open-iconic.eot</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.otf">open-iconic.otf</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.svg">open-iconic.svg</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.ttf">open-iconic.ttf</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="open-iconic.woff">open-iconic.woff</ProjectItem>
+              </Folder>
+            </Folder>
+            <ProjectItem ReplaceParameters="false" TargetFileName="FONT-LICENSE">FONT-LICENSE</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="ICON-LICENSE">ICON-LICENSE</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="site.css">site.css</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      </Folder>
+      <Folder Name="Pages" TargetFolderName="Pages">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_Host.cshtml">_Host.cshtml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Index.razor">Index.razor</ProjectItem>
+      </Folder>
+      <Folder Name="Shared" TargetFolderName="Shared">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainLayout.razor">MainLayout.razor</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="_Imports.razor">_Imports.razor</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="App.razor">App.razor</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
